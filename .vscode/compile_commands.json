@@ -1,0 +1,6 @@
+[
+{
+  "directory": "e:\\source\\github\\Algorithm-AStart",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\xx\\windows\\x64\\release\\src\\main.cpp.obj", "src\\main.cpp"],
+  "file": "src\\main.cpp"
+}]
