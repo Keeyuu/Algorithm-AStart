@@ -17,10 +17,15 @@ void testque()
     auto b = std::make_shared<testNode>();
     b->G = 2;
 
+    auto d = std::make_shared<testNode>();
+    d->G = -100;
+
     INoderQue que;
     que.push(a);
     que.push(b);
     que.push(c);
+    que.push(d);
+
     while (!que.empty())
     {
         auto &x = que.top();
