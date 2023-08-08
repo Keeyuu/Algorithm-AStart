@@ -61,7 +61,7 @@ std::vector<std::shared_ptr<INoder>> AStart(std::shared_ptr<INoder> Start, std::
             if (closedList.find(neighbor.get()) != closedList.end())
                 continue; // 在关闭列表中跳过
 
-            float tentativeG = currentNode->G + currentNode->CalcG(neighbor.get()); // 邻居节点总G
+            float tentativeG = currentNode->G + currentNode->CalcG(neighbor.get()); // 计算从当前路径到邻居节点的G
 
             if (inOpenList.find(neighbor.get()) == inOpenList.end() || tentativeG < neighbor->G)
             {
