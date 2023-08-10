@@ -71,13 +71,9 @@ std::vector<std::shared_ptr<INoder>> AStart(std::shared_ptr<INoder> Start, std::
 
                 if (inOpenList.find(neighbor.get()) == inOpenList.end()) // 不在开放列表
                 {
-                    openList.push(neighbor);           // 入队列
                     inOpenList.insert(neighbor.get()); // 入开放列表
                 }
-                else
-                {
-                    openList.push(neighbor);
-                }
+                openList.push(neighbor); // 入队列
             }
         }
 
